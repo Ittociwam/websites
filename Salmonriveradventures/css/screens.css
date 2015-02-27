@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 2, 2014, 11:26:08 AM
+    Author     : Robbie
+*/
+/*equalizes the style sheet with how the browser wants to style it. */
+@import url('../css/normalize.css');
+/*this makes our layout responsive*/
+@import url('../css/gridism.css');
+@import url('http://fonts.googleapis.com/css?family=Revalia|Delius+Unicase|Marmelad');
+
+
+/*canary
+easy*/
+
+
+
+/**{
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+body{
+    font-family: "Marmelad", sans-serif;
+    font-size: 16px;
+    font-size: 1em;
+    color: white;
+    background: url('../media/images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.container{
+
+}
+
+
+/*experimenting with using multiple properties to accomplish one task with headings.*/
+h1, h2, h3, h4{
+    font-family: 'Delius Unicase', sans-serif; color:white; 
+}
+h1 {font-size: 2.5em; background-color: #012b38;}
+h2 {font-size: 2.25em; background-color: #5a1e00;}
+h3 {font-size: 2em; background-color: #012b38;}
+h4 {font-size: 1.5em; background-color: #5a1e00;}
+
+p { text-indent: 1em; font-family:'Marmelad', sans-serif; font-size: 1.2em;background-color: #003c28; color: #FFFFFF;
+}
+li {font-size: 1em; background-color: #003c28;}
+
+
+ul > li {list-style-type: none}
+
+select {color: #000000}
+
+option {font-size: 1em}
+
+nav {
+    font-size: 1em;
+    font-family: 'Revalia';
+        position: relative;
+            right: 10%;
+            
+}
+nav li a {color: #FFFFFF;}
+
+input {color: #000000}
+textarea {color: #000000}
+
+a {color: #c0c0c0}
